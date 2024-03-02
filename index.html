@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Mantenimiento de Bicicletas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="/img/Vector.png" alt="Logo">
+            <h1>Mantenimiento de tu Bicicleta</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="columna">
+                <form id="formularioMantenimiento">
+                    <label for="fechaMantenimiento">Fecha:</label>
+                    <input type="date" id="fechaMantenimiento" required><br>
+                    <label for="tareaMantenimiento">Tarea:</label>
+                    <input type="text" id="tareaMantenimiento" required><br>
+                    <label for="detallesMantenimiento">Detalles:</label>
+                    <textarea id="detallesMantenimiento"></textarea><br>
+                    <label for="consejosMantenimiento">Consejos o Parámetros:</label>
+                    <textarea id="consejosMantenimiento"></textarea><br>
+                    <button type="button" id="agregarBtn">Agregar Mantenimiento</button>
+                    <button type="button" id="reiniciarBtn">Reiniciar Formulario</button>
+                </form>
+            </div>
+            <div class="columna">
+                <div id="filtroContainer">
+                    <label for="fechaBusquedaInput">Buscar por Fecha:</label>
+                    <input type="date" id="fechaBusquedaInput">
+                    <button type="button" id="buscarPorFechaBtn">Buscar</button>
+                    <br>
+                    <label for="tareaBusquedaInput">Filtrar por Tarea:</label>
+                    <input type="text" id="tareaBusquedaInput">
+                    <button type="button" id="filtrarPorTareaBtn">Filtrar</button>
+                    <button type="button" id="restablecerFiltroBtn">Restablecer Filtro</button>
+                </div>
+                <ul id="listaMantenimientos"></ul>
+            </div>
+        </div>
+        <section id="graficoContainer">
+            <canvas id="graficoBarras"></canvas>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 - Todos los derechos reservados - Martin Ariel D'Alessandro</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

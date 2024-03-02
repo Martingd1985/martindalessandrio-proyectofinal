@@ -1,0 +1,26 @@
+[
+    {
+        "fecha": "2023-01-15",
+        "tarea": "Revisión de frenos",
+        "detalles": "Se revisaron los frenos delanteros y traseros.",
+        "consejos": "Verificar el estado de las pastillas y discos."
+    },
+    {
+        "fecha": "2023-02-20",
+        "tarea": "Cambio de aceite",
+        "detalles": "Se realizó un cambio de aceite en la cadena y los engranajes.",
+        "consejos": "Aplicar aceite lubricante después de cada lavado."
+    },
+    {
+        "fecha": "2023-03-10",
+        "tarea": "Inflado de neumáticos",
+        "detalles": "Se inflaron los neumáticos a la presión recomendada.",
+        "consejos": "Verificar la presión de los neumáticos regularmente."
+    },
+    {
+        "fecha": "2023-04-05",
+        "tarea": "Ajuste de frenos",
+        "detalles": "Se ajustaron los frenos para mejorar su eficacia.",
+        "consejos": "Realizar ajustes periódicos para mantener un frenado seguro."
+    }
+]
